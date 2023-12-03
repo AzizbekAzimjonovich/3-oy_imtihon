@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.bar{
+   padding: 10px 0px;
+    .aksiya{
+        background-image: url(../img/svgexport-12.svg);
+        padding: 0px 14px;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 400;
+        font-family: sans-serif;
+        
+    }
+    button{
+        border: none;
+        background-color: transparent;
+        opacity: 0.8;
+        transition: all 0.5s;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

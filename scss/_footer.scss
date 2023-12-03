@@ -1,0 +1,76 @@
+.footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 47);
+    .footer_container {
+        div{
+            p{
+                color: white;
+            }
+        }
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .div {
+            display: flex;
+            justify-content: space-between;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                button{
+                    padding: 5px 20px;
+                    border: none;
+                    background-color: rgb(16, 16, 65);
+                    margin-right: 10px;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
+.href{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    opacity: 1;
+}
+.ul{
+    li{
+        a{
+            color: white;
+            font-weight: 700;
+        }
+    }
+}
+.ul2{
+    li{
+        a{
+            color: white;
+            opacity: 0.4;
+            &:hover{
+                color: white;
+                opacity: 1;
+            }
+        }
+        p{
+            color: white    ;
+        }
+    }
+}
+.end{
+    padding: 10px 0px;
+    background-color: rgb(23, 23, 56);
+    div{
+        div{
+            display: flex;
+            gap: 20px;
+        }
+        p{
+            color: white;
+        }
+    }
+}

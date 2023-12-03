@@ -1,0 +1,23 @@
+.what{
+    margin-bottom: 100px;
+    .card{
+        width: 16%;
+        padding: 20px;
+        border: none;
+        border: 1px solid rgba(146, 145, 145, 0.1);
+        img{
+            padding: 10px;
+            padding: 10px;
+            background-color: rgb(253, 203, 185);
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 12px;
+            font-weight: 700;
+        }
+        span{
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.contact {
+    background-color: rgb(190, 190, 190);
+}
+
+.conntact_container {
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+.number:hover {
+    color: black;
+}
+
+.city {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.location {
+    margin-left: 10px;
+}
+
+.location span {
+    transition: all 0.5s;
+}
+
+.location span:hover {
+    color: black;
+}
+
+nav {
+    gap: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+nav li select {
+    outline: none;
+    color: rgb(129, 129, 129);
+    border: none;
+    background-color: transparent;
+    &:hover{
+        color: black;
+    }
+}
